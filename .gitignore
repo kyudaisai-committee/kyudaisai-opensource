@@ -1,12 +1,17 @@
-# Build
-/dist
-/lib
-/lib-types
-/server
+# SvelteKit and Cloudflare
+/.svelte-kit
+/build
+/.output
+/.wrangler
+/.vercel
+/.netlify
 
 # Development
 node_modules
 .env
+.env.*
+!.env.example
+!.env.test
 .planning
 *.local
 
@@ -28,9 +33,9 @@ lerna-debug.log*
 # Editor
 .vscode/*
 !.vscode/launch.json
+!.vscode/settings.json
+!.vscode/extensions.json
 !.vscode/*.code-snippets
-!.vscode/mcp.json
-
 .idea
 .DS_Store
 *.suo
