@@ -19,5 +19,13 @@ pnpm preview
 
 `pnpm preview` runs the built worker locally with Wrangler. Deploy with `pnpm exec wrangler deploy`.
 
+## Code quality
+
+```sh
+pnpm format
+pnpm lint
+pnpm verify
+```
+
 - [SvelteKit documentation](https://svelte.dev/docs/kit)
 - [Cloudflare adapter documentation](https://svelte.dev/docs/kit/adapter-cloudflare)
